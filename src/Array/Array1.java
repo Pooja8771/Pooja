@@ -7,7 +7,7 @@ public class Array1 {
             if(i%2==0){
                 System.out.println( "number is even" +i);
             }
-            else{
+            else {
                 System.out.println("number is odd");
             }
         }
