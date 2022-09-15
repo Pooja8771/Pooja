@@ -7,11 +7,12 @@ public class Main {
             this.value = value;
         }
     }
-    static class LinkedList{
+    static class LinkedList {
         public Node head;
-        public void add(int value){
-            Node newNode=new Node(value);
-            head=newNode;
+
+        public void add(int value) {
+            Node newNode = new Node(value);
+            head = newNode;
 
         }
     }
